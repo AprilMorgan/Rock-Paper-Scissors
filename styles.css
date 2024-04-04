@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(rgb(225, 94, 94), rgb(89, 89, 212), rgb(162, 236, 162));
+  background: linear-gradient(rgb(227, 73, 73), rgb(89, 89, 212), #ece912);
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
@@ -25,11 +25,11 @@ body {
   display: flex;
   width: auto;
   justify-content: space-between;
-  background: rgb(214, 210, 210);
-  padding: 20px;
+  background: rgb(14, 194, 244);
+  padding: 15px;
   border: solid black 3px;
   border-radius: 8px;
-  max-height: 90px;
+  max-height: 100px;
 }
 
 img {
@@ -53,12 +53,11 @@ img {
 }
 
 .reset {
-  display: none;
   justify-content: center;
   align-items: center;
   width: 200px;
   height: 60px;
-  background-color: rgb(222, 225, 85);
+  background-color: rgb(62, 19, 235);
   color: black;
   font-size: 20px;
   border: 1px solid black;
